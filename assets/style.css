@@ -51,16 +51,49 @@ body {
 .list-item:hover .sub-nav-list {
   display: block;
 }
-.sub-list-item-1{}
+
+
 .sub-nav-list-1{
   display: none;
   position: absolute;
+  padding: 0;
+  width: 100%;
+  background-color: #f72500;
+  left: 100%;
+  top: 67%;
 }
-h1::before{
+
+.sub-list-item-1{
+  background-color: #f72500;
+}
+
+
+.sub-list-item:hover .sub-nav-list-1{
+  display: block;
+  
+}
+
+.sub-nav-list-2{
+  display: none;
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  background-color: #f72500;
+  left: 100%;
+  top: 67%;
+}
+
+.sub-list-item-1:hover .sub-nav-list-2{
+  display: block;
+  
+}
+
+
+/* h1::before{
   content: '$';
   background-color: violet;
 }
 h1::after{
   content: '$';
   background-color: violet;
-}
+} */
